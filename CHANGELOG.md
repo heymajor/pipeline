@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.6] - 2020-07-17
+
+### Fixed
+
+- Fix display errors when the command line wraps or the cursor is in the middle of a longer command.
+- Fix terminal corruption when the command exits with error.
+
+## [1.5] - 2020-02-24
+
+### Fixed
+
+- Fix display error when the output is nothing but newlines.
+- Fix for pressing enter when in readline vi command mode (or switching between emacs and vi modes after starting pipeline).
+- Fix `-t` truncate mode printing too much output.
+
 ## [1.4] - 2019-12-10
 
 ### Added
